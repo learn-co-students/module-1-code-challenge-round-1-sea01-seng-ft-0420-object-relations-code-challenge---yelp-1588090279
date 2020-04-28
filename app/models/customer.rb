@@ -1,6 +1,6 @@
 class Customer
   attr_accessor :given_name, :family_name
-
+  #@@all = []
   def initialize(given_name, family_name)
     @given_name = given_name
     @family_name  = family_name
@@ -9,4 +9,9 @@ class Customer
   def full_name
     "#{given_name} #{family_name}"
   end
+=begin
+  def self.all
+    @@all << [] 
+  end
+=end
 end

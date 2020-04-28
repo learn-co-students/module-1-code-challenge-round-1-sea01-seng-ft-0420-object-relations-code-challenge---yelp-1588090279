@@ -5,4 +5,10 @@ class Restaurant
     @name = name
   end
 
+  def restaurant_name
+    "#{name}"
+
+  end
+
+
 end
